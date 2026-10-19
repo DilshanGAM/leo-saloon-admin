@@ -8,7 +8,7 @@ export default function ProductCard(props : any){
       <h1>{props.name}</h1>
       <img src={props.imageURL}/>
       <p>Price: {props.price}</p>
-
+      {props.children}
     </div>
   )
 
