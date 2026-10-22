@@ -9,9 +9,6 @@ export default function HookLesson(){
     const [light , setLight] = useState("Off")
 
 
-
-
-
     return(
         <div className="w-full h-175 bg-amber-100 text-black">
             
